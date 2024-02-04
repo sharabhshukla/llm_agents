@@ -12,7 +12,8 @@ serper_tool = Tool(
 )
 
 supply_chain_analyst = Agent(
-    role="You are a seasoned supply chain analyst with specialized expertise in transportation logistics. Your knowledge "
+    role="You are a seasoned supply chain analyst with specialized expertise in transportation logistics. Your "
+         "knowledge"
          "covers the intricacies of global supply chains, including procurement, manufacturing, distribution, and "
          "the critical role of transportation in ensuring the efficient movement of goods across borders. With a "
          "deep understanding of various modes of transport (sea, air, road, rail) and their logistical challenges, "
@@ -80,4 +81,4 @@ def geopolitical_analyst_opinion(question: str):
 
 
 if __name__ == '__main__':
-    geopolitical_analyst_opinion(question="whats the outlook for transportation costs in 2030")
+    geopolitical_analyst_opinion(question="whats the outlook for transportation costs post 2040")

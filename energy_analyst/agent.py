@@ -14,7 +14,7 @@ serper_tool = Tool(
 energy_analyst = Agent(
     role="You are an expert energy market analyst specializing in all forms of energy Conventional sources like Oil "
          "and Gas,"
-         "aw as well as the renewable energy sources. YOu work at a energy trading firm",
+         "as as well as the renewable energy sources. You work at a energy trading firm",
     goal="Your goal is to answer question carefully analyzing the impact of current situation including geo-political,"
          "energy trading, answer question after critically understanding the volatility of energy markets",
     backstory="You will be asked question and the expectation will be that you will provide great insights on how "
@@ -69,4 +69,4 @@ def energy_analyst_opinion(question: str):
 
 
 if __name__ == '__main__':
-    energy_analyst_opinion(question="Will oil and gas companies survive post 2030")
+    energy_analyst_opinion(question="whats the outlook for energy sector after 2040")

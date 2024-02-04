@@ -33,7 +33,7 @@ economic_research_analyst = Agent(
 information_integrity_verifier = Agent(
     role="You are an senior energy market analyst who is also expert verifier, you verify the authenticity "
          "and the veracity of the energy market analyst result",
-    goal="Your task is to verify the information giev by an energy market analyst, and make sure it does not contain "
+    goal="Your task is to verify the information given by an energy market analyst, and make sure it does not contain "
          "factual inaccuracies, or"
          "hallucinations or made up facts. Also, make sure to correct any speculations in the infomration given by the "
          "analyst. Your job is to"
@@ -52,7 +52,7 @@ information_integrity_verifier = Agent(
 def economist_opinion(question: str):
     geopolitical_research = Task(
         description=f"Research and answer the {question} as a geo politician",
-        agent=geopolitical_analyst,
+        agent=economic_research_analyst,
         tools=[serper_tool]
     )
 
@@ -64,7 +64,7 @@ def economist_opinion(question: str):
     )
 
     crew = Crew(
-        agents=[geopolitical_analyst, information_integrity_verifier],
+        agents=[economic_research_analyst, information_integrity_verifier],
         tasks=[geopolitical_research, cross_check_information],
         verbose=2,
         process=Process.sequential
@@ -75,4 +75,4 @@ def economist_opinion(question: str):
 
 
 if __name__ == '__main__':
-    economist_opinion(question="Will oil and gas companies survive post 2030")
+    economist_opinion(question="whats the outlook for energy sector after 2040")

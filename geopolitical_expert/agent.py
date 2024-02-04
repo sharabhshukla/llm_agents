@@ -75,4 +75,4 @@ def geopolitical_analyst_opinion(question: str):
 
 
 if __name__ == '__main__':
-    geopolitical_analyst_opinion(question="Will oil and gas companies survive post 2030")
+    geopolitical_analyst_opinion(question="whats the outlook for energy sector post 2040")
