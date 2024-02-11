@@ -413,35 +413,20 @@ marshmallow = ">=3.18.0,<4.0.0"
 typing-inspect = ">=0.4.0,<1"
 
 [[package]]
-name = "docstring-inheritance"
-version = "2.1.2"
-description = "Avoid writing and maintaining duplicated docstrings."
-optional = false
-python-versions = "<3.13,>=3.8"
-files = [
-    {file = "docstring-inheritance-2.1.2.tar.gz", hash = "sha256:ac9af95a7b06a305d43720274d0e62523d23f835bf94ce2bb814687e6fe3957b"},
-    {file = "docstring_inheritance-2.1.2-py3-none-any.whl", hash = "sha256:05c8e3ef4c308406e66345b6d583df48ec1803ae90ae39cb7be03a78ac8d88d1"},
-]
-
-[package.extras]
-test = ["covdefaults", "pytest", "pytest-cov"]
-
-[[package]]
 name = "duckduckgo-search"
-version = "4.4"
+version = "4.4.2"
 description = "Search for words, documents, images, news, maps and text translation using the DuckDuckGo.com search engine."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "duckduckgo_search-4.4-py3-none-any.whl", hash = "sha256:74ff68837332e7907e9ea134e1277afd7d77a4c368d0e7a508fc8dd9b45d2a8d"},
-    {file = "duckduckgo_search-4.4.tar.gz", hash = "sha256:56a044b2c20547bb1e5e4133d3ff6edd70cab6c99321bf03e55e0e53c3393545"},
+    {file = "duckduckgo_search-4.4.2-py3-none-any.whl", hash = "sha256:ba5f817ca18efb5930784eea3a0c2c0cfdf8635ed63b0c42882f55bb31e9587f"},
+    {file = "duckduckgo_search-4.4.2.tar.gz", hash = "sha256:964b978550fcf6423b1503797620055076bb4d1e7613e0b7f535ee4a964d1bdf"},
 ]
 
 [package.dependencies]
 click = ">=8.1.7"
-curl-cffi = ">=0.6.0b7"
-docstring-inheritance = ">=2.1.2"
-lxml = ">=4.9.3"
+curl-cffi = ">=0.6.0b9"
+lxml = ">=5.1.0"
 nest-asyncio = ">=1.6.0"
 
 [package.extras]
@@ -1155,6 +1140,7 @@ files = [
     {file = "PyYAML-6.0.1-cp311-cp311-win_amd64.whl", hash = "sha256:bf07ee2fef7014951eeb99f56f39c9bb4af143d8aa3c21b1677805985307da34"},
     {file = "PyYAML-6.0.1-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:855fb52b0dc35af121542a76b9a84f8d1cd886ea97c84703eaa6d88e37a2ad28"},
     {file = "PyYAML-6.0.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:40df9b996c2b73138957fe23a16a4f0ba614f4c0efce1e9406a184b6d07fa3a9"},
+    {file = "PyYAML-6.0.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a08c6f0fe150303c1c6b71ebcd7213c2858041a7e01975da3a99aed1e7a378ef"},
     {file = "PyYAML-6.0.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6c22bec3fbe2524cde73d7ada88f6566758a8f7227bfbf93a408a9d86bcc12a0"},
     {file = "PyYAML-6.0.1-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:8d4e9c88387b0f5c7d5f281e55304de64cf7f9c0021a3525bd3b1c542da3b0e4"},
     {file = "PyYAML-6.0.1-cp312-cp312-win32.whl", hash = "sha256:d483d2cdf104e7c9fa60c544d92981f12ad66a457afae824d146093b8c294c54"},
