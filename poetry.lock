@@ -374,18 +374,18 @@ files = [
 
 [[package]]
 name = "curl-cffi"
-version = "0.6.0b9"
+version = "0.6.1"
 description = "libcurl ffi bindings for Python, with impersonation support"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "curl_cffi-0.6.0b9-cp38-abi3-macosx_10_9_x86_64.whl", hash = "sha256:a0385edcbb545e58757849308a47292a895ab3b3e36f5f1c2e19e8d8db546022"},
-    {file = "curl_cffi-0.6.0b9-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:984ac36e20070206e8729abdb00675dae233ea53fffe678c33b3869b26a9c537"},
-    {file = "curl_cffi-0.6.0b9-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1e18bb9f73a31f7f6c61b7341c1a4742b200779c177fe06276a3a03fdb270b13"},
-    {file = "curl_cffi-0.6.0b9-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c02e53bf3774a02b20c5a4458af965555d11755119e575d91c2984cedd1baa9c"},
-    {file = "curl_cffi-0.6.0b9-cp38-abi3-win32.whl", hash = "sha256:92baeb4544a2353eb882a2d827ba546f7430655d04272b0678eedf2ae4618309"},
-    {file = "curl_cffi-0.6.0b9-cp38-abi3-win_amd64.whl", hash = "sha256:00b538b67c60cd1c3286c7319813a3564079c62ccf126cc1462fff428f0c3be5"},
-    {file = "curl_cffi-0.6.0b9.tar.gz", hash = "sha256:7d9a6a68c2aef90359a8d012edf7bdd81eaa1b16af684f21febf00fb54dd8d73"},
+    {file = "curl_cffi-0.6.1-cp38-abi3-macosx_10_9_x86_64.whl", hash = "sha256:d92e946afca5e6ddbdc007d3b8815cd77fed69879406eb8d94bce5ec43ee64eb"},
+    {file = "curl_cffi-0.6.1-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:c8b01bf3d01693c4e61679e27b1581036639cf8e8bb0d7026bd77e916f5c75ce"},
+    {file = "curl_cffi-0.6.1-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f3030de18de2ab0f3af18a50b7e9465701d582be62a6c21d67008549b592bed4"},
+    {file = "curl_cffi-0.6.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:2aada7ef565826bbac351e2dcb55360f849d970193e6fdbbe337680bd5605bb7"},
+    {file = "curl_cffi-0.6.1-cp38-abi3-win32.whl", hash = "sha256:7225921efaee08efca9a72f18c03f0bc6614dd69414bdab104f4fd8d508aa277"},
+    {file = "curl_cffi-0.6.1-cp38-abi3-win_amd64.whl", hash = "sha256:6cfffe3b012467f37f6dd979318106f955f4866c6f0bd55a93044e697b475647"},
+    {file = "curl_cffi-0.6.1.tar.gz", hash = "sha256:e3091ee765f6d9522d16f723f224dd159257d6f36ee8314979d60084c339695e"},
 ]
 
 [package.dependencies]
@@ -394,8 +394,8 @@ cffi = ">=1.12.0"
 
 [package.extras]
 build = ["cibuildwheel", "wheel"]
-dev = ["autoflake (==1.4)", "black (==22.8.0)", "coverage (==6.4.1)", "cryptography (==38.0.3)", "flake8 (==6.0.0)", "flake8-bugbear (==22.7.1)", "flake8-pie (==0.15.0)", "httpx (==0.23.1)", "isort (==5.10.1)", "mypy (==0.971)", "pytest (==7.1.2)", "pytest-asyncio (==0.19.0)", "pytest-trio (==0.7.0)", "ruff (==0.1.14)", "trio (==0.21.0)", "trio-typing (==0.7.0)", "trustme (==0.9.0)", "types-certifi (==2021.10.8.2)", "uvicorn (==0.18.3)", "websockets (==11.0.3)"]
-test = ["cryptography (==38.0.3)", "fastapi (==0.100.0)", "httpx (==0.23.1)", "proxy.py (==2.4.3)", "pytest (==7.1.2)", "pytest-asyncio (==0.19.0)", "pytest-trio (==0.7.0)", "python-multipart (==0.0.6)", "trio (==0.21.0)", "trio-typing (==0.7.0)", "trustme (==0.9.0)", "types-certifi (==2021.10.8.2)", "uvicorn (==0.18.3)", "websockets (==11.0.3)"]
+dev = ["autoflake (==1.4)", "coverage (==6.4.1)", "cryptography (==38.0.3)", "flake8 (==6.0.0)", "flake8-bugbear (==22.7.1)", "flake8-pie (==0.15.0)", "httpx (==0.23.1)", "mypy (==0.971)", "nest-asyncio (==1.6.0)", "pytest (==7.1.2)", "pytest-asyncio (==0.19.0)", "pytest-trio (==0.7.0)", "ruff (==0.1.14)", "trio (==0.21.0)", "trio-typing (==0.7.0)", "trustme (==0.9.0)", "types-certifi (==2021.10.8.2)", "uvicorn (==0.18.3)", "websockets (==11.0.3)"]
+test = ["cryptography (==38.0.3)", "fastapi (==0.100.0)", "httpx (==0.23.1)", "nest-asyncio (==1.6.0)", "proxy.py (==2.4.3)", "pytest (==7.1.2)", "pytest-asyncio (==0.19.0)", "pytest-trio (==0.7.0)", "python-multipart (==0.0.6)", "trio (==0.21.0)", "trio-typing (==0.7.0)", "trustme (==0.9.0)", "types-certifi (==2021.10.8.2)", "uvicorn (==0.18.3)", "websockets (==11.0.3)"]
 
 [[package]]
 name = "dataclasses-json"
@@ -414,23 +414,22 @@ typing-inspect = ">=0.4.0,<1"
 
 [[package]]
 name = "duckduckgo-search"
-version = "4.4.2"
+version = "4.5.0"
 description = "Search for words, documents, images, news, maps and text translation using the DuckDuckGo.com search engine."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "duckduckgo_search-4.4.2-py3-none-any.whl", hash = "sha256:ba5f817ca18efb5930784eea3a0c2c0cfdf8635ed63b0c42882f55bb31e9587f"},
-    {file = "duckduckgo_search-4.4.2.tar.gz", hash = "sha256:964b978550fcf6423b1503797620055076bb4d1e7613e0b7f535ee4a964d1bdf"},
+    {file = "duckduckgo_search-4.5.0-py3-none-any.whl", hash = "sha256:0057aee08d0f60bbb69b438b65e771c920cae46a5996f6682fffee38948f6930"},
+    {file = "duckduckgo_search-4.5.0.tar.gz", hash = "sha256:36dd819cf45de7099c7311b17215933b80be74f2f8fdc8595b52d6ac01e23fc2"},
 ]
 
 [package.dependencies]
 click = ">=8.1.7"
-curl-cffi = ">=0.6.0b9"
+curl-cffi = ">=0.6.1"
 lxml = ">=5.1.0"
-nest-asyncio = ">=1.6.0"
 
 [package.extras]
-dev = ["pytest (>=7.4.2)", "ruff (>=0.1.6)"]
+dev = ["pytest (>=8.0.1)", "ruff (>=0.2.2)"]
 
 [[package]]
 name = "exceptiongroup"
@@ -925,17 +924,6 @@ python-versions = ">=3.5"
 files = [
     {file = "mypy_extensions-1.0.0-py3-none-any.whl", hash = "sha256:4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d"},
     {file = "mypy_extensions-1.0.0.tar.gz", hash = "sha256:75dbf8955dc00442a438fc4d0666508a9a97b6bd41aa2f0ffe9d2f2725af0782"},
-]
-
-[[package]]
-name = "nest-asyncio"
-version = "1.6.0"
-description = "Patch asyncio to allow nested event loops"
-optional = false
-python-versions = ">=3.5"
-files = [
-    {file = "nest_asyncio-1.6.0-py3-none-any.whl", hash = "sha256:87af6efd6b5e897c81050477ef65c62e2b2f35d51703cae01aff2905b1852e1c"},
-    {file = "nest_asyncio-1.6.0.tar.gz", hash = "sha256:6f172d5449aca15afd6c646851f4e31e02c598d553a667e38cafa997cfec55fe"},
 ]
 
 [[package]]
@@ -1457,4 +1445,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10, <3.13"
-content-hash = "b67e76c5df83f6211b68841fb25fa197102f74d4546de42b00a196fb867672ac"
+content-hash = "5191eacc9ffcd95d703f29161cac369a5d992d98da2593cdb3398bf33ba8ea27"
