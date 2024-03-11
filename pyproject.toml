@@ -8,7 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.10, <3.13"
 langchain-community = "^0.0.19"
-duckduckgo-search = "^4.4"
+duckduckgo-search = "^5.0"
 
 
 [build-system]
